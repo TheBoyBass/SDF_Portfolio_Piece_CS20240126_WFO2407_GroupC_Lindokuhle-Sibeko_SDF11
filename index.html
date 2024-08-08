@@ -12,9 +12,85 @@
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
 
-<body class="null">
-    <div class="container flex flex-col mx-auto">
+<body class="bg-gray-100">
+
+    <!-- Component-1 -->
+    <div class="mx-auto bg-white">
         <!-- Main container with navigation and header content -->
+        <div class="relative flex flex-wrap items-center justify-between w-full md:flex nav_area shrink-0">
+            <!-- Logo section -->
+            <div class="px-4 logo">
+                <img class="h-8" src="/assets/component-1/navigation/cache-bank-logo.png" alt="Cach Banking logo"/>
+            </div>
+            
+            <!-- Navigation Section -->
+            <nav class="nav">
+                <ul class="relative flex-wrap items-center justify-between hidden w-full gap-10 md:flex items nav__list shrink-0" >
+                    <li class="nav__item hover:text-green-500"><a href="#product" class="nav__link">Product</a></li>
+                    <li class="nav__item hover:text-green-500"><a href="#features" class="nav__link">Features</a></li>
+                    <li class="nav__item hover:text-green-500"><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li class="nav__item hover:text-green-500"><a href="#company" class="nav__link">Company</a></li>
+                </ul>
+            </nav>
+
+            <!-- Login and Sign Up Buttons -->
+            <div class="flex-wrap hidden p-4 user_in md:flex">
+                <button class="m-2 log_in hover:text-green-500"> Log In</button>
+                <button class="px-4 py-1 font-bold bg-green-500 sign_up hover:text-white rounded-xl">Sign Up</button>
+            </div>
+
+
+            <!-- Menue Toggle Button  -->
+            <button class="p-12 navigator md:hidden" id="menueToggle">
+                <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6"
+                fill="none"
+                >
+                <g clip-path="url(#clip0_429_11066)">
+                  <path
+                    d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+                    stroke="#292929"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_429_11066">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.000915527)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+
+            <!-- Mobile Menue Area that toggles -->
+            <div class="ml-8 md:hidden" id="mobile-menue">
+                <nav class="nav">
+                    <ul class="nav__list>
+                        <li class="nav__item hover:text-green-500"><a href="#product" class="nav__link">Product</a></li>
+                        <li class="nav__item hover:text-green-500"><a href="#features" class="nav__link">Features</a></li>
+                        <li class="nav__item hover:text-green-500"><a href="#pricing" class="nav__link">Pricing</a></li>
+                        <li class="nav__item hover:text-green-500"><a href="#company" class="nav__link">Company</a></li>
+                    </ul>
+                </nav>
+    
+                <!-- Login and Sign Up Buttons -->
+                <div class="flex-wrap p-4 user_in md:flex">
+                    <button class="log_in hover:text-green-500"> Log In</button>
+                    <button class="px-4 py-1 font-bold bg-green-500 sign_up hover:text-white rounded-xl">Sign Up</button>
+                </div>
+            </div>
+        </div> 
+        
+
     </div>
     <div class="w-full">
         <!-- Wide full-width container for additional content -->
@@ -31,6 +107,9 @@
     <div class="w-full bg-green-500">
         <!-- Full-width footer container with green background -->
     </div>
+    <script>
+        document.getElementById("menueToggle").addEventListener("click",function() {document.getElementById("mobile-menue").classList.toggle("hidden")})
+    </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
