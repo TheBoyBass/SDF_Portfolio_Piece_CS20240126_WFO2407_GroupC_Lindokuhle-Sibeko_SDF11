@@ -1,12 +1,11 @@
 ## Cach Bank Landing Page
 Welcome to the Cach Bank landing page project! This repository contains the code for a sleek and modern landing page for Cach Bank, designed to attract potential customers and provide essential information about the bank’s services.
 
-## Table of Contents
--Project Overview
--Features
--Getting Started
--Installation
--Presentation and Presentation Slides
+## Table of Contents Project Overview
+- Features
+- Getting Started
+- Installation
+- Presentation and Presentation Slides
 
 ## Project Overview
 The Cach Bank landing page aims to achieve the following goals:
