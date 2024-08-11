@@ -46,5 +46,9 @@ npm run build-minify
 ```
 
 # Presentation and Presentation Slides
-Loom Link: [Insert Here]
+Loom Link: 
+Loom Video 1:[(https://www.loom.com/share/77c3af54855840779c2fc13b8d66a396?sid=f8355e9c-4dcf-4a98-a8cd-661f2e239232)]
+
+Loom Video 2:[(https://www.loom.com/share/134b6bf5cb9a43b0b102b75695344eb0?sid=7121d9ba-8c48-42bd-9327-fef1912a358b)]
+
 Presentation Slides: [(https://docs.google.com/presentation/d/1vuC6UT8DajG1nmWYAlh2gNR_eEDSYlSRCceS04NZpj4/edit?usp=sharing)]
